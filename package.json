@@ -13,8 +13,10 @@
 	},
 	"dependencies": {
 		"axios": "^1.6.2",
+		"postcss-preset-env": "^9.3.0",
 		"react": "^18.2.0",
-		"react-dom": "^18.2.0"
+		"react-dom": "^18.2.0",
+		"react-router-dom": "^6.19.0"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "^18.4.2",
@@ -32,6 +34,7 @@
 		"eslint-plugin-react-refresh": "^0.4.4",
 		"husky": "^8.0.3",
 		"lint-staged": "^15.1.0",
+		"postcss-px-to-viewport": "github:evrone/postcss-px-to-viewport",
 		"prettier": "^3.1.0",
 		"typescript": "^5.2.2",
 		"vite": "^5.0.0"
