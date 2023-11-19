@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.root {
+	transform: rotate(90deg);
+	transform-origin: 0% 100%;
+	top: 0;
+	top: -99vw;
+	position: fixed;
+	height: 100vw;
+	width: 100vh;
+}

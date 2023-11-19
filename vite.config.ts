@@ -1,6 +1,7 @@
 import path from 'path';
 import postcsspxtoviewport from 'postcss-px-to-viewport';
 import postcssPresetEnv from 'postcss-preset-env';
+import tailwindcss from 'tailwindcss';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
@@ -38,6 +39,7 @@ export default defineConfig({
 					// exclude: [],
 					landscape: true, // 是否处理横屏情况
 				}),
+				tailwindcss,
 			],
 		},
 	},

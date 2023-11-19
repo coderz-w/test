@@ -27,6 +27,7 @@
 		"@typescript-eslint/eslint-plugin": "^6.11.0",
 		"@typescript-eslint/parser": "^6.11.0",
 		"@vitejs/plugin-react": "^4.2.0",
+		"autoprefixer": "^10.4.16",
 		"eslint": "^8.53.0",
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-prettier": "^5.0.1",
@@ -35,8 +36,10 @@
 		"eslint-plugin-react-refresh": "^0.4.4",
 		"husky": "^8.0.3",
 		"lint-staged": "^15.1.0",
+		"postcss": "^8.4.31",
 		"postcss-px-to-viewport": "github:evrone/postcss-px-to-viewport",
 		"prettier": "^3.1.0",
+		"tailwindcss": "^3.3.5",
 		"typescript": "^5.2.2",
 		"vite": "^5.0.0"
 	},
