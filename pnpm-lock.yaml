@@ -23,6 +23,9 @@ dependencies:
   react-router-dom:
     specifier: ^6.19.0
     version: 6.19.0(react-dom@18.2.0)(react@18.2.0)
+  tailwind-merge:
+    specifier: ^2.0.0
+    version: 2.0.0
 
 devDependencies:
   '@commitlint/cli':
@@ -81,7 +84,7 @@ devDependencies:
     version: 8.4.31
   postcss-px-to-viewport:
     specifier: github:evrone/postcss-px-to-viewport
-    version: github.com/evrone/postcss-px-to-viewport/9d6c5cee5eea367fb4c7cf0c3bb1117979b5fbf4(postcss@8.4.31)
+    version: git@github.com+evrone/postcss-px-to-viewport/9d6c5cee5eea367fb4c7cf0c3bb1117979b5fbf4(postcss@8.4.31)
   prettier:
     specifier: ^3.1.0
     version: 3.1.0
@@ -6593,6 +6596,15 @@ packages:
       tslib: 2.6.2
     dev: true
 
+  /tailwind-merge@2.0.0:
+    resolution:
+      {
+        integrity: sha512-WO8qghn9yhsldLSg80au+3/gY9E4hFxIvQ3qOmlpXnqpDKoMruKfi/56BbbMg6fHTQJ9QD3cc79PoWqlaQE4rw==,
+      }
+    dependencies:
+      '@babel/runtime': 7.23.2
+    dev: false
+
   /tailwindcss@3.3.5:
     resolution:
       {
@@ -7129,12 +7141,14 @@ packages:
     engines: { node: '>=10' }
     dev: true
 
-  github.com/evrone/postcss-px-to-viewport/9d6c5cee5eea367fb4c7cf0c3bb1117979b5fbf4(postcss@8.4.31):
+  git@github.com+evrone/postcss-px-to-viewport/9d6c5cee5eea367fb4c7cf0c3bb1117979b5fbf4(postcss@8.4.31):
     resolution:
       {
-        tarball: https://codeload.github.com/evrone/postcss-px-to-viewport/tar.gz/9d6c5cee5eea367fb4c7cf0c3bb1117979b5fbf4,
+        commit: 9d6c5cee5eea367fb4c7cf0c3bb1117979b5fbf4,
+        repo: git@github.com:evrone/postcss-px-to-viewport.git,
+        type: git,
       }
-    id: github.com/evrone/postcss-px-to-viewport/9d6c5cee5eea367fb4c7cf0c3bb1117979b5fbf4
+    id: git@github.com+evrone/postcss-px-to-viewport/9d6c5cee5eea367fb4c7cf0c3bb1117979b5fbf4
     name: postcss-px-to-viewport
     version: 1.1.1
     peerDependencies:

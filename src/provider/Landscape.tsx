@@ -24,5 +24,5 @@ export function LandScapeProvider({ children }: { children: ReactNode }) {
 		}
 	}
 
-	return <div className=" w-[100%] h-[100%]">{children}</div>;
+	return <div className=" w-[100vmax] h-[100vmin]">{children}</div>;
 }
